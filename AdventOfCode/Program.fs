@@ -5,7 +5,7 @@ open System
 [<EntryPoint>]
 let main argv = 
 
-    let answer = Day12.answer()
+    let answer = Day12.answer2()
 
     printfn "%A" answer
     Console.ReadLine() |> ignore
